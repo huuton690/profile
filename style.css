@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  #navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(227, 242, 179, 0.7);
+  }
+  #navbar ul {
+    list-style: none;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  #navbar li {
+    margin-left: 100px;
+  }
+  #navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #container {
+    display: grid;
+  }
+  #welcome-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #109bf0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #projects {
+    padding: 100px 20px 100px 20px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 100px;
+  }
+  .project-tile {
+    height: 400px;
+    background: #7a0f39;
+    border: solid yellow;
+  }
+  #contact-lists {
+    width: 100%;
+    height: 100vh;
+    background: #39373a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contact-lists h1 {
+    color: white;
+  }
+  #contact-lists h4 {
+    color: white;
+  }
+  @media screen and (max-width: 1000px){
+   
+  }
+  
